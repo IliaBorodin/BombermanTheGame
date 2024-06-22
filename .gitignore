@@ -6,7 +6,8 @@ obj/
 .vs/
 
 # Файлы конфигурации пользователя
-HomeLabWPF.csproj.user
+*.user
+*.csproj
 
 # Резервные и кэшированные файлы
 *.suo
