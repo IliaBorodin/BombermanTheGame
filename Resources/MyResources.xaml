@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <BitmapImage x:Key="grass" UriSource="Images/grass.png"/>
+    <BitmapImage x:Key="brick" UriSource="Images/bricks.png"/>
+    <BitmapImage x:Key="wall" UriSource="Images/wall.png"/>
+    <BitmapImage x:Key="hero" UriSource="Images/man.png"/>
+    <BitmapImage x:Key="bomb" UriSource="Images/bomb.png"/>
+    <BitmapImage x:Key="fire" UriSource="Images/fire.png"/>
+    <BitmapImage x:Key="gold" UriSource="Images/money.png"/>
+    <BitmapImage x:Key="monster" UriSource="Images/enemy.png"/>
+
+</ResourceDictionary>

@@ -1,0 +1,18 @@
+﻿<Page x:Class="HomeLabWPF.GameMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HomeLabWPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="475" Background="DarkGray"
+      Title="GameMenu">
+
+    <Grid>
+        <Button x:Name="CreateGameBtn" Click="CreateGameBtn_Click" Content="Играть" Margin="131,88,0,0" VerticalAlignment="Top" Width="232" Height="75" HorizontalAlignment="Left" FontWeight="Bold" />
+        <Button x:Name="DifBtn" Click="DifBtn_Click" Content="Сложность"  Margin="131,209,112.2,166.6" FontWeight="Bold"/>
+        <Label x:Name="NameGame" Content="Bomberman" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" Height="73" Width="455" HorizontalContentAlignment="Center" />
+        <Button x:Name="ExitBtn" Click="ExitBtn_Click" Content="Выход"  Margin="131,326,112.2,49.6" FontWeight="Bold"/>
+
+    </Grid>
+</Page>

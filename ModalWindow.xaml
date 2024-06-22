@@ -1,0 +1,17 @@
+﻿<Window x:Class="HomeLabWPF.ModalWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeLabWPF"
+        mc:Ignorable="d"
+        Title="Bomberman" Height="450" Width="475" WindowStartupLocation="CenterScreen" Background="DarkGray" WindowStyle="ToolWindow" ResizeMode="NoResize" Icon="game.png">
+    <Grid>
+        <ListBox x:Name="Storage" HorizontalAlignment="Left" Height="151" Margin="32,49,0,0" VerticalAlignment="Top" Width="414" SelectionChanged="Storage_SelectionChanged" />
+        <Button x:Name="RandomBtn" Content="Случайная карта" Click="RandomBtn_Click" HorizontalAlignment="Left" Margin="32,235,0,0" VerticalAlignment="Top" Width="191" Height="72"/>
+        <Button x:Name="LoadMapBtn" Content="Загрузить" Click="LoadMapBtn_Click" HorizontalAlignment="Left" Margin="255,235,0,0" VerticalAlignment="Top" Width="191" Height="72"/>
+        <Button x:Name="DeleteMap" Content="Удалить" Click="DeleteMap_Click"  HorizontalAlignment="Left" Margin="255,333,0,0" VerticalAlignment="Top" Width="191" Height="72"/>
+        <Button x:Name="LoadBtn" Content="Загрузить файл" Click="LoadBtn_Click"  HorizontalAlignment="Left" Margin="32,333,0,0" VerticalAlignment="Top" Width="191" Height="72"/>
+
+    </Grid>
+</Window>

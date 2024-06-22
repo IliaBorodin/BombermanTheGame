@@ -1,0 +1,15 @@
+# Папки сборки
+bin/
+obj/
+
+# Папка конфигурации Visual Studio
+.vs/
+
+# Файлы конфигурации пользователя
+HomeLabWPF.csproj.user
+
+# Резервные и кэшированные файлы
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
